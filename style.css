@@ -68,25 +68,64 @@ h1 {
     margin: 0 0 10px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+.app-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
 }
 
-.app-card {
-    background: #fff;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 14px;
-    display: flex;
+.app-item {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+}
+
+.app-item:last-child {
+    border-bottom: 0;
+}
+
+.app-bullet {
+    color: #5a6259;
+    font-size: 14px;
 }
 
 .app-icon {
-    font-size: 26px;
-    flex-shrink: 0;
+    font-size: 20px;
+    display: inline-flex;
+    width: 28px;
+    justify-content: center;
+}
+
+.app-name {
+    display: block;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+
+.dl-btn {
+    background: var(--accent-dim);
+    color: var(--accent);
+    border: none;
+    border-radius: 7px;
+    padding: 7px 12px;
+    font-size: 12.5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity .15s;
+}
+
+.dl-btn:hover {
+    opacity: .8;
 }
 
 .app-info {

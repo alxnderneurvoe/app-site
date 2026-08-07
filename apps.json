@@ -5,13 +5,13 @@
             "apps": [
                 {
                     "name": "Google Chrome",
-                    "file": "files/chrome-installer.exe",
+                    "file": "apps/chrome-installer.exe",
                     "icon": "🌐",
                     "size": ""
                 },
                 {
                     "name": "Mozilla Firefox",
-                    "file": "files/firefox-installer.exe",
+                    "file": "apps/firefox-installer.exe",
                     "icon": "🦊",
                     "size": ""
                 }
@@ -22,7 +22,7 @@
             "apps": [
                 {
                     "name": "Microsoft Office",
-                    "file": "files/office-installer.exe",
+                    "file": "apps/office-installer.exe",
                     "icon": "📄",
                     "size": ""
                 }
@@ -33,7 +33,7 @@
             "apps": [
                 {
                     "name": "Printer Driver",
-                    "file": "files/printer-driver.exe",
+                    "file": "apps/printer-driver.exe",
                     "icon": "🖨️",
                     "size": ""
                 }
@@ -44,13 +44,13 @@
             "apps": [
                 {
                     "name": "7-Zip",
-                    "file": "files/7zip-installer.exe",
+                    "file": "apps/7zip-installer.exe",
                     "icon": "🗜️",
                     "size": ""
                 },
                 {
                     "name": "aaaa",
-                    "file": "files/anydesk-installer.exe",
+                    "file": "apps/anydesk-installer.exe",
                     "icon": "🖥️",
                     "size": ""
                 }

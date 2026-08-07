@@ -10,7 +10,6 @@
 <div class="wrap">
   <header>
     <h1>App Download</h1>
-    <p class="sub">Download installer buat setup device baru — tinggal pilih, klik, install.</p>
   </header>
 
   <input type="text" id="search" placeholder="Cari aplikasi…" autocomplete="off">

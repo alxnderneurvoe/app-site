@@ -23,18 +23,16 @@ function render(categories) {
     container.innerHTML = categories.filter(c => c.apps.length > 0).map(cat => `
     <div class="category">
       <div class="category-title">${cat.name}</div>
-      <div class="grid">
+      <ul class="app-list">
         ${cat.apps.map(app => `
-          <div class="app-card">
-            <div class="app-icon">${app.icon || '📦'}</div>
-            <div class="app-info">
-              <div class="app-name" title="${app.name}">${app.name}</div>
-              ${app.size ? `<div class="app-size">${app.size}</div>` : ''}
-            </div>
+          <li class="app-item">
+            <span class="app-bullet">-</span>
+            <span class="app-icon">${app.icon || '📦'}</span>
+            <span class="app-name" title="${app.name}">${app.name}${app.version ? ` v${app.version}` : ''}</span>
             <a class="dl-btn" href="${app.file}" download>Download</a>
-          </div>
+          </li>
         `).join('')}
-      </div>
+      </ul>
     </div>
   `).join('');
 }
