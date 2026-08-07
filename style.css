@@ -81,12 +81,6 @@ h1 {
     padding: 8px 0;
 }
 
-.app-item::before {
-    content: "-";
-    color: var(--accent);
-    margin-right: 10px;
-}
-
 .app-left {
     display: flex;
     align-items: center;

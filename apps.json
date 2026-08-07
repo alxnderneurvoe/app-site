@@ -5,7 +5,7 @@
             "apps": [
                 {
                     "name": "Google Chrome",
-                    "file": "apps/chrome-installer.exe",
+                    "file": "apps/ChromeSetup.exe",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Google_Chrome_icon_%28March_2011%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
                     "size": ""
                 },
