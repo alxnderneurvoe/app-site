@@ -1,0 +1,60 @@
+{
+    "categories": [
+        {
+            "name": "Browser",
+            "apps": [
+                {
+                    "name": "Google Chrome",
+                    "file": "files/chrome-installer.exe",
+                    "icon": "🌐",
+                    "size": ""
+                },
+                {
+                    "name": "Mozilla Firefox",
+                    "file": "files/firefox-installer.exe",
+                    "icon": "🦊",
+                    "size": ""
+                }
+            ]
+        },
+        {
+            "name": "Office",
+            "apps": [
+                {
+                    "name": "Microsoft Office",
+                    "file": "files/office-installer.exe",
+                    "icon": "📄",
+                    "size": ""
+                }
+            ]
+        },
+        {
+            "name": "Driver",
+            "apps": [
+                {
+                    "name": "Printer Driver",
+                    "file": "files/printer-driver.exe",
+                    "icon": "🖨️",
+                    "size": ""
+                }
+            ]
+        },
+        {
+            "name": "Utility",
+            "apps": [
+                {
+                    "name": "7-Zip",
+                    "file": "files/7zip-installer.exe",
+                    "icon": "🗜️",
+                    "size": ""
+                },
+                {
+                    "name": "AnyDesk",
+                    "file": "files/anydesk-installer.exe",
+                    "icon": "🖥️",
+                    "size": ""
+                }
+            ]
+        }
+    ]
+}
