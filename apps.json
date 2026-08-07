@@ -7,13 +7,41 @@
                     "name": "Google Chrome",
                     "file": "apps/ChromeSetup.exe",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Google_Chrome_icon_%28March_2011%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-                    "size": ""
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/ChromeSetup.exe"
+                        },
+                        {
+                            "label": "macOS",
+                            "file": "apps/Chrome.dmg"
+                        },
+                        {
+                            "label": "Linux",
+                            "file": "apps/chrome-linux.deb"
+                        }
+                    ]
                 },
                 {
                     "name": "Mozilla Firefox",
                     "file": "apps/firefox-installer.exe",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-                    "size": ""
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/firefox-installer.exe"
+                        },
+                        {
+                            "label": "macOS",
+                            "file": "apps/firefox.dmg"
+                        },
+                        {
+                            "label": "Linux",
+                            "file": "apps/firefox-linux.deb"
+                        }
+                    ]
                 },
                 {
                     "name": "Brave",

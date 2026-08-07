@@ -72,14 +72,29 @@ function render(categories) {
       leftEl.appendChild(iconEl);
       leftEl.appendChild(infoEl);
 
-      const downloadLink = document.createElement('a');
-      downloadLink.className = 'dl-btn';
-      downloadLink.href = app.file;
-      downloadLink.download = '';
-      downloadLink.textContent = 'Download';
+      const downloadActions = document.createElement('div');
+      downloadActions.className = 'download-actions';
+
+      if (Array.isArray(app.downloads) && app.downloads.length > 0) {
+        app.downloads.forEach(dl => {
+          const btn = document.createElement('a');
+          btn.className = 'dl-btn';
+          btn.href = dl.file;
+          btn.download = '';
+          btn.textContent = dl.label || 'Download';
+          downloadActions.appendChild(btn);
+        });
+      } else {
+        const downloadLink = document.createElement('a');
+        downloadLink.className = 'dl-btn';
+        downloadLink.href = app.file;
+        downloadLink.download = '';
+        downloadLink.textContent = 'Download';
+        downloadActions.appendChild(downloadLink);
+      }
 
       itemEl.appendChild(leftEl);
-      itemEl.appendChild(downloadLink);
+      itemEl.appendChild(downloadActions);
       listEl.appendChild(itemEl);
     });
 

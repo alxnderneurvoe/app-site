@@ -89,6 +89,14 @@ h1 {
     min-width: 0;
 }
 
+.download-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    min-width: 0;
+}
+
 .app-icon {
     width: 24px;
     height: 24px;
