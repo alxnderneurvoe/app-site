@@ -78,12 +78,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--line);
+    padding: 8px 0;
 }
 
-.app-item:last-child {
-    border-bottom: none;
+.app-item::before {
+    content: "-";
+    color: var(--accent);
+    margin-right: 10px;
 }
 
 .app-left {
@@ -95,7 +96,7 @@ h1 {
 }
 
 .app-icon {
-    font-size: 24px;
+    font-size: 20px;
     flex-shrink: 0;
 }
 
@@ -103,21 +104,6 @@ h1 {
     display: flex;
     flex-direction: column;
     min-width: 0;
-}
-
-.app-name {
-    font-size: 13.5px;
-    font-weight: 600;
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.app-size {
-    font-size: 11.5px;
-    color: #8a917f;
-    margin-top: 2px;
 }
 
 .app-name {
