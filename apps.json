@@ -6,13 +6,19 @@
                 {
                     "name": "Google Chrome",
                     "file": "apps/chrome-installer.exe",
-                    "icon": "🌐",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Google_Chrome_icon_%28March_2011%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
                     "size": ""
                 },
                 {
                     "name": "Mozilla Firefox",
                     "file": "apps/firefox-installer.exe",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                    "size": ""
+                },
+                {
+                    "name": "Brave",
+                    "file": "apps/brave-installer.exe",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Brave_Logo_%282024%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
                     "size": ""
                 }
             ]
