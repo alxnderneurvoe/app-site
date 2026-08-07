@@ -96,8 +96,22 @@ h1 {
 }
 
 .app-icon {
-    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.app-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .app-info {

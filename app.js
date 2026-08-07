@@ -27,7 +27,9 @@ function render(categories) {
         ${cat.apps.map(app => `
           <li class="app-item">
             <div class="app-left">
-              <span class="app-icon">${app.icon || '📦'}</span>
+              ${/^https?:\/\//i.test(app.icon)
+                ? `<img class="app-icon" src="${app.icon}" alt="${app.name} logo">`
+                : `<span class="app-icon">${app.icon || '📦'}</span>`}
               <span class="app-info">
                 <span class="app-name" title="${app.name}">${app.name}</span>
                 ${app.size ? `<span class="app-size">${app.size}</span>` : ''}
