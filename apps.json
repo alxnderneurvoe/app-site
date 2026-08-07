@@ -12,7 +12,7 @@
                 {
                     "name": "Mozilla Firefox",
                     "file": "apps/firefox-installer.exe",
-                    "icon": "🦊",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
                     "size": ""
                 }
             ]
