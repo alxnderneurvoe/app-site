@@ -26,9 +26,13 @@ function render(categories) {
       <ul class="app-list">
         ${cat.apps.map(app => `
           <li class="app-item">
-            <span class="app-bullet">-</span>
-            <span class="app-icon">${app.icon || '📦'}</span>
-            <span class="app-name" title="${app.name}">${app.name}${app.version ? ` v${app.version}` : ''}</span>
+            <div class="app-left">
+              <span class="app-icon">${app.icon || '📦'}</span>
+              <span class="app-info">
+                <span class="app-name" title="${app.name}">${app.name}</span>
+                ${app.size ? `<span class="app-size">${app.size}</span>` : ''}
+              </span>
+            </div>
             <a class="dl-btn" href="${app.file}" download>Download</a>
           </li>
         `).join('')}
