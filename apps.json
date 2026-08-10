@@ -11,15 +11,7 @@
                     "downloads": [
                         {
                             "label": "Windows",
-                            "file": "apps/ChromeSetup.exe"
-                        },
-                        {
-                            "label": "macOS",
-                            "file": "apps/Chrome.dmg"
-                        },
-                        {
-                            "label": "Linux",
-                            "file": "apps/chrome-linux.deb"
+                            "file": "apps/browser/chrome-windows.exe"
                         }
                     ]
                 },
@@ -31,15 +23,15 @@
                     "downloads": [
                         {
                             "label": "Windows",
-                            "file": "apps/firefox-installer.exe"
+                            "file": "apps/browser/firefox-windows.exe"
                         },
                         {
                             "label": "macOS",
-                            "file": "apps/firefox.dmg"
+                            "file": "apps/browser/firefox-mac.dmg"
                         },
                         {
                             "label": "Linux",
-                            "file": "apps/firefox-linux.deb"
+                            "file": "apps/browser/firefox-linux.xz"
                         }
                     ]
                 },
@@ -48,6 +40,26 @@
                     "file": "apps/brave-installer.exe",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Brave_Logo_%282024%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
                     "size": ""
+                },
+                {
+                    "name": "Opera",
+                    "file": "apps/opera-installer.exe",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Opera_logo_2019.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/browser/opera-windows.exe"
+                        },
+                        {
+                            "label": "macOS",
+                            "file": "apps/browser/opera-mac.dmg"
+                        },
+                        {
+                            "label": "Linux",
+                            "file": "apps/browser/opera-linux.deb"
+                        }
+                    ]
                 }
             ]
         },
