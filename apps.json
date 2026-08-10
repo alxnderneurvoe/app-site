@@ -71,6 +71,18 @@
                     "file": "apps/office-installer.exe",
                     "icon": "📄",
                     "size": ""
+                },
+                {
+                    "name": "Adobe Acrobat 2025 -un",
+                    "file": "/apps/adobe2025-un.rar",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/4/42/Adobe_Acrobat_DC_logo_2020.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/browser/chrome-windows.exe"
+                        }
+                    ]
                 }
             ]
         },
