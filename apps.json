@@ -11,7 +11,7 @@
                     "downloads": [
                         {
                             "label": "Windows",
-                            "file": "apps/browser/chrome-windows.exe"
+                            "file": "apps/chrome-windows.exe"
                         }
                     ]
                 },
@@ -23,15 +23,15 @@
                     "downloads": [
                         {
                             "label": "Windows",
-                            "file": "apps/browser/firefox-windows.exe"
+                            "file": "apps/firefox-windows.exe"
                         },
                         {
                             "label": "macOS",
-                            "file": "apps/browser/firefox-mac.dmg"
+                            "file": "apps/firefox-mac.dmg"
                         },
                         {
                             "label": "Linux",
-                            "file": "apps/browser/firefox-linux.xz"
+                            "file": "apps/firefox-linux.xz"
                         }
                     ]
                 },
@@ -39,7 +39,13 @@
                     "name": "Brave",
                     "file": "apps/brave-installer.exe",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Brave_Logo_%282024%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-                    "size": ""
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/brave-windows.exe"
+                        }
+                    ]
                 },
                 {
                     "name": "Opera",
@@ -49,15 +55,15 @@
                     "downloads": [
                         {
                             "label": "Windows",
-                            "file": "apps/browser/opera-windows.exe"
+                            "file": "apps/opera-windows.exe"
                         },
                         {
                             "label": "macOS",
-                            "file": "apps/browser/opera-mac.dmg"
+                            "file": "apps/opera-mac.dmg"
                         },
                         {
                             "label": "Linux",
-                            "file": "apps/browser/opera-linux.deb"
+                            "file": "apps/opera-linux.deb"
                         }
                     ]
                 }
@@ -70,7 +76,13 @@
                     "name": "Microsoft Office",
                     "file": "apps/office-installer.exe",
                     "icon": "📄",
-                    "size": ""
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/adobe2025-un-windows.rar"
+                        }
+                    ]
                 },
                 {
                     "name": "Adobe Acrobat 2025 -un",
@@ -80,7 +92,7 @@
                     "downloads": [
                         {
                             "label": "Windows",
-                            "file": "apps/browser/chrome-windows.exe"
+                            "file": "apps/adobe2025-un-windows.rar"
                         }
                     ]
                 }
@@ -108,7 +120,7 @@
                 },
                 {
                     "name": "aaaa",
-                    "file": "apps/anydesk-installer.exe",
+                    "file": "apps/setup.rar",
                     "icon": "🖥️",
                     "size": ""
                 }
