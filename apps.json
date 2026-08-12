@@ -50,7 +50,7 @@
                 {
                     "name": "Opera",
                     "file": "apps/opera-installer.exe",
-                    "icon": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Opera_logo_2019.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                    "icon": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-flat-horizontal.3a48a9c34651.svg",
                     "size": "",
                     "downloads": [
                         {
