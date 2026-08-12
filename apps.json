@@ -122,7 +122,17 @@
                     "name": "Setup",
                     "file": "apps/setup-laptop.rar",
                     "icon": "🖥️",
-                    "size": ""
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "setup",
+                            "file": "apps/setup-laptop.rar"
+                        },
+                        {
+                            "label": "setup1",
+                            "file": "apps/open-eum.rar"
+                        }
+                    ]
                 }
             ]
         }
