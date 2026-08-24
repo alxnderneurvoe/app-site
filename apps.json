@@ -130,7 +130,11 @@
                         },
                         {
                             "label": "setup1",
-                            "file": "apps/open-eum.rar"
+                            "file": "apps/open-uem.rar"
+                        },
+                        {
+                            "label": "setup2",
+                            "file": "apps/open-uem.zip"
                         }
                     ]
                 }
