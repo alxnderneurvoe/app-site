@@ -125,8 +125,12 @@
                     "size": "",
                     "downloads": [
                         {
-                            "label": "setup",
+                            "label": "setup.rar",
                             "file": "apps/setup-laptop.rar"
+                        },
+                        {
+                            "label": "setup.zip",
+                            "file": "apps/setup-laptop.zip"
                         },
                         {
                             "label": "setup1",
