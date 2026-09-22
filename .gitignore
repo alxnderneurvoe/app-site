@@ -1,1 +1,6 @@
 apps/
+<<<<<<< HEAD
+=======
+docker-compose.yml
+Dockerfile
+>>>>>>> 6517576 (clear fix apps)

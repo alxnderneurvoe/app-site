@@ -98,16 +98,42 @@
                 }
             ]
         },
-        {
+                {
             "name": "Driver",
             "apps": [
                 {
-                    "name": "Printer Driver",
-                    "file": "apps/printer-driver.exe",
+                    "name": "Printer L6160",
+                    "file": "apps/",
                     "icon": "🖨️",
-                    "size": ""
-                }
-            ]
+                    "size": "",
+		    "downloads": [
+			{
+				"label": "Windows",
+				"file": "apps/Epson_l6160_Windows.exe"
+			},
+			{
+				"label": "Mac",
+				"file": "apps/Epson_l6160_Mac.dmg"
+			}
+		]
+		},
+		{
+                    "name": "Printer L6160",
+                    "file": "apps/",
+                    "icon": "🖨️",
+                    "size": "",
+                    "downloads": [
+                        {
+                                "label": "Windows",
+                                "file": "apps/Epson_l6160_Windows.exe"
+                        },
+                        {
+                                "label": "Mac",
+                                "file": "apps/Epson_l6160_Mac.dmg"
+                        }
+		]
+                },
+	]
         },
         {
             "name": "Utility",

@@ -1,0 +1,15 @@
+services:
+  apps-download-site:
+    build: .
+    container_name: apps-download-site
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    volumes:
+      - .:/var/www/html
+    networks:
+      - homelab
+
+networks:
+  homelab:
+    external: true
