@@ -95,6 +95,30 @@
                             "file": "apps/adobe2025-un-windows.rar"
                         }
                     ]
+                },
+                {
+                    "name": "Nitro 2026 -un",
+                    "file": "/apps/",
+                    "icon": "https://www.gonitro.com/hubfs/Nitro_2025/logo-dark.svg",
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/NITRO2026.rar"
+                        }
+                    ]
+                },
+                {
+                    "name": "7-Zip",
+                    "file": "/apps/7zip-installer.exe",
+                    "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/7ziplogo.svg/1280px-7ziplogo.svg.png?utm_source=id.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+                    "size": "",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/7zip-installer.exe"
+                        }
+                    ]
                 }
             ]
         },
@@ -138,12 +162,6 @@
         {
             "name": "Utility",
             "apps": [
-                {
-                    "name": "7-Zip",
-                    "file": "apps/7zip-installer.exe",
-                    "icon": "🗜️",
-                    "size": ""
-                },
                 {
                     "name": "Setup",
                     "file": "apps/setup-laptop.rar",
