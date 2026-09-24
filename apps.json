@@ -98,7 +98,7 @@
                 }
             ]
         },
-                {
+        {
             "name": "Driver",
             "apps": [
                 {
@@ -106,34 +106,34 @@
                     "file": "apps/",
                     "icon": "🖨️",
                     "size": "",
-		    "downloads": [
-			{
-				"label": "Windows",
-				"file": "apps/Epson_l6160_Windows.exe"
-			},
-			{
-				"label": "Mac",
-				"file": "apps/Epson_l6160_Mac.dmg"
-			}
-		]
-		},
-		{
-                    "name": "Printer L6160",
+                    "downloads": [
+                        {
+                            "label": "Windows",
+                            "file": "apps/Epson_l6160_Windows.exe"
+                        },
+                        {
+                            "label": "Mac",
+                            "file": "apps/Epson_l6160_Mac.dmg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Printer UFR III W300",
                     "file": "apps/",
                     "icon": "🖨️",
                     "size": "",
                     "downloads": [
                         {
-                                "label": "Windows",
-                                "file": "apps/Epson_l6160_Windows.exe"
+                            "label": "Windows",
+                            "file": "apps/Driver_V300_Windows.exe"
                         },
                         {
-                                "label": "Mac",
-                                "file": "apps/Epson_l6160_Mac.dmg"
+                            "label": "Mac",
+                            "file": "apps/Driver_V300_Mac.dmg"
                         }
-		]
-                },
-	]
+                    ]
+                }
+            ]
         },
         {
             "name": "Utility",
